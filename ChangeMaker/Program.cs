@@ -64,25 +64,33 @@ namespace ChangeMaker
             //while amount is greater than 20 
             while (i > 20)
             {
+                //amout - 20 until false
                 i = i - 20;
+                //add a twenty
                 twenty++;
             }
-
+            //while amount is greater than 10 add a ten
             while (i > 10)
             {
+                //amount - 10 until false
                 i = i - 10;
+                //add a ten
                 ten++;
             }
-
+            //while amount is greater than 5 add a five
             while (i > 5)
             {
+                //amount - 5 until false
                 i = i - 5;
+                //add a five
                 five++;
             }
-
+            //while amount is greater than 1 add a single
             while (i > 1)
             {
+                //amount - 1 until false
                 i = i - 1;
+                //add a single
                 one++;
             }
             //while amount is greater than .25 add a quarter
